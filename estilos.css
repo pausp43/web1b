@@ -1,0 +1,81 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+body{
+    background-color: rgba(69, 232, 253, 0.623);
+    margin: 20px;
+}
+
+h1{
+    color: red;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 48%;
+    margin-right: auto;
+}
+h2{
+    color: brown;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+form{
+    padding: 10px;
+}
+#flogin{
+    background-color: aquamarine;
+}
+#fregistro{
+    background-color: burlywood;
+}
+
+/*Estilos de enlaces*/
+
+a{
+    /*Quita subrayado*/
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    color: rgb(9, 255, 0);
+}
+
+img{
+    width: 300;
+    height: auto;
+    border: 2px solid #333333;
+    border-radius: 10px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cabecera{
+    margin-left: 45%;
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.index{
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    
+}
+
+div{
+
+    margin: 20px;
+}
+
+.enlaces{
+    margin-left: 0%;
+    margin-right: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(238, 183, 164);
+}

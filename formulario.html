@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 class="cabecera">Formularios</h1>
+    <div class="enlaces">
+            <ul>
+                <li><a href="capas.html">Capas</a></li>
+                <li><a href="index.html">Índice</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="parrafo.html">Párrafos</a></li>
+                <li><a href="formato.html">Formato</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="Tareaperiodicos.html">Tarea 1</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+            </ul>
+        </div>
+    <p>
+        Para crear un formulario utilizamos la etiqueta FORM.
+    </p>
+    <form id="flogin" action="" >
+    
+        <label for="username">Usuario:</label>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="Iniciar sesión">
+    </form>
+
+    <h2>Registro</h2>
+    <form id="fregistro" action="">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="surname">Apellidos:</label>
+            <input type="text" name="surname" id="surname">
+            <br>
+            <label for="username">Usuario:</label>
+            <input type="text" name="username" id="username">
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="birthday">Fecha de nacimiento</label>
+            <input type="date" name="birthday" id="birthday">
+            <br>
+            <label for="email">Dirección de e-mail</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <p>¿Deseas recibir notificaciones?</p>
+            <label for="yes">Sí</label>
+            <input type="radio" name="notificaciones" id="si">
+            <label for="no">No</label>
+            <input type="radio" name="notificaciones" id="no">
+            <p>Aficiones</p>
+            <label for="dibujar">Dibujar</label>
+            <input type="checkbox" name="dibujar" id="dibujar">
+            <br>
+            <label for="cantar">Cantar</label>
+            <input type="checkbox" name="cantar" id="cantar">
+            <br>
+            <label for="bailar">Bailar</label>
+            <input type="checkbox" name="bailar" id="bailar">
+            <br>
+            <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>

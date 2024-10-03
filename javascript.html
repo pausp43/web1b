@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function mostrar() {
+            document.getElementById("informacion").innerHTML = "Hola que tal";
+        }
+        function ocultar() {
+            document.getElementById("informacion").innerHTML = "";
+        }
+        function yanfri() {
+            document.getElementById("imagen").src = "yanfri1.jpg";
+        }
+    </script>
+</head>
+<body>
+    <h1>javascript</h1>
+    <h2>Alerts</h2>
+    <p>Al hacer clic en el enlace se abre una ventana.</p>
+    <a href="javascript:alert('hola')">Clic aquí</a>
+    <p>Al hacer clic, podemos llamar a una función.</p>
+    <button onclick="alert('has hecho clic en el botón')">
+        Hazme clic
+    </button>
+    <h2>Cambiar contenido de la página</h2>
+    <p id="informacion"></p>
+    <button onclick="mostrar()">Muestra información</button>
+    <button onclick="ocultar()">Oculta información</button>
+    <h2>Abrir una ventana nueva</h2>
+    <p>Para ir a youtube haz clic <a href="javascript:window.open('http://www.youtube.com')">aquí</a></p>
+    <h2>Cambiar imágenes</h2>
+    <button onclick="yanfri()">yanfri</button>
+    <button>walter</button>
+    <img id="imagen" src="yanfri1.jpg" alt="Yanfri">
+</body>
+</html>
